@@ -1,0 +1,29 @@
+#p1 {
+	color: mediumspringgreen;
+}
+
+#p2 {
+	color: #469191;
+}
+
+#p3 {
+	color: rgb(91, 27, 181);
+}
+
+#p4 {
+	color: rgba(255, 0, 77, 0.3);
+}
+
+#p1:hover{
+	color: blanchedalmond;
+	font-size: 35px;
+	text-shadow: 3px 0 0 #ffcccc;
+	font-family: cursive;
+}
+img{
+	width: 200px;
+}
+img:hover{
+	width: 300px;
+	border: 5px solid blueviolet;
+}

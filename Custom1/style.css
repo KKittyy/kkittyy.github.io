@@ -1,0 +1,87 @@
+h1{
+	color: white;
+}
+
+h2{
+	color: white;
+}
+
+.art{
+	background: dimgray;
+	height: 200px;
+	width: 200px;
+}
+
+.r1:hover{
+	color: #446570;
+	font-family: "Monaco", monospace;
+	font-size: 35px;
+}
+
+.a1:hover{
+	background: #3e4070;
+	height: 250px;
+	width: 250px;
+}
+.a2:hover{
+	background: #1e2529;
+	height: 250px;
+	width: 250px;
+}
+.a3:hover{
+	height: 250px;
+	width: 250px;
+}
+
+.r2:hover{
+	color: #2b64ff;
+	font-family: "comic sans MS", cursive;
+	font-size: 35px;
+}
+
+.sonic{
+	background: dimgray;
+	height: 200px;
+	width: 200px;
+}
+.sonic:hover{
+	background: #323d73;
+	height: 250px;
+	width: 250px;
+}
+
+.cat{
+	height: 200px;
+	width: 200px;
+}
+
+.c1:hover{
+	height: 250px;
+	width: 250px;
+}
+.c2:hover{
+	height: 250px;
+	width: 250px;
+}
+.c3:hover{
+	height: 250px;
+	width: 250px;
+}
+.r3:hover{
+	color: #b8c2f2;
+	font-family: "Times New Roman", serif;
+	font-size: 35px;
+}
+p{
+	color: white;
+	font-family: "comic sans MS", cursive;
+}
+.copyright:hover{
+	font-size: 0;
+}
+
+.copyright:hover:after{
+	content: attr(data-hover);
+	font-size: 75px;
+	color: #ff0000;
+}

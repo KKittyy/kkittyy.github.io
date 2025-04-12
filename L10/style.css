@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	background-image: linear-gradient(270deg, #ccffff 0%, #990073 100%);
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 30px;
+	text-shadow: 0 0 5px black;
+	padding: 150px 0 150px 0;
+	border: 5px dashed blanchedalmond;
+	margin: 0 auto;
+}
+p:hover{
+	color: #003b4d;
+	font-family: cursive;
+	text-shadow: 2px 2px 4px #e6faff;
+}

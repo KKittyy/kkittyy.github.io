@@ -1,0 +1,32 @@
+body{
+	font-family: "comic sans MS", cursive;
+}
+
+h1{
+	color: #ff0000;
+	font-size: 50px;
+	font-family: "monaco", monospace;
+}
+
+.class{
+	color: snow;
+	font-size: 50px;
+}
+
+.class:hover{
+	font-size: 0px;
+}
+.class:hover:after{
+	content: attr(data-hover);
+	font-size: 75px;
+	color: #ff0000;
+}
+
+p{
+	color: snow;
+}
+
+img:hover{
+	height: 500px;
+	width: 500px;
+}

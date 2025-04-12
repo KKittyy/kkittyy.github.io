@@ -1,0 +1,29 @@
+.container{
+	background: #c08af2;
+	height: 685px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 5px;
+
+}
+.item{
+	width: 150px;
+	height: 150px;
+	font-family: cursive;
+	font-size: 70px;
+	text-align: center;
+}
+.i1{
+	background: lightblue;
+}
+.i2{
+	background: #a34bd6;
+}
+.i3{
+	background: #98ff8c;
+}
+.i4{
+	background: #ebff69;
+}

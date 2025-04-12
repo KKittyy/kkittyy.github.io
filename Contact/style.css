@@ -1,0 +1,18 @@
+h1{
+	color: lightgrey;
+	font-family: "comic sans ms", cursive;
+}
+h3{
+	color: lightgrey;
+	font-family: "comic sans ms", cursive;
+}
+h1:hover{
+	color: white;
+	font-family: monospace;
+	font-size: 50px;
+}
+h3:hover{
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+}

@@ -1,0 +1,44 @@
+.container{
+	background: lightskyblue;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+}
+
+.item{
+/*	width: 200px;*/
+	height: 200px;
+	font-family: "comic sans MS", cursive;
+	font-size: 70px;
+	border-radius: 10%;
+	box-shadow: 0 0 10px black;
+	margin: 7px;
+	text-align: center;
+}
+
+.i1{
+	background: blueviolet;
+	flex-basis: 300px;
+	flex-grow: 2;
+	flex-grow: 1;
+}
+.i2{
+	background: lightgoldenrodyellow;
+	flex-basis: 600px;
+	flex-grow: 1;
+	flex-grow: 5;
+}
+.i3{
+	background: darksalmon;
+	flex-basis: 100%;
+}
+.i4{
+	background: lightslategrey;
+	flex-basis: 100%;
+}
+.i5{
+	background: mediumseagreen;
+}
+.i6{
+	background: palevioletred;
+}

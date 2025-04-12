@@ -1,0 +1,29 @@
+img{
+	height: 300px;
+	width: 500px;
+}
+img:hover{
+	height: 400px;
+	width: 650px;
+}
+.copyright:hover{
+	font-size: 0;
+}
+
+.copyright:hover:after{
+	content: attr(data-hover);
+	font-size: 75px;
+	color: #ff0000;
+}
+p{
+	color: white;
+	font-family: "comic sans MS" cursive;
+}
+h1{
+	color: white;
+	font-family: "comic sans MS" cursive;
+}
+h2{
+	color: white;
+	font-family: "comic sans MS" cursive;
+}
