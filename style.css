@@ -34,11 +34,6 @@ a:hover{
 }
 
 .copyright:hover{
-	font-size: 0;
-}
-
-.copyright:hover:after{
-	content: attr(data-hover);
-	font-size: 75px;
-	color: #ff0000;
+	font-size: 25;
+	color: #ffffff;
 }
