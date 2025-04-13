@@ -27,3 +27,8 @@ a:hover{
 .flex-nav ul{
 	list-style: none;
 }
+
+.clas:hover{
+	color: #ffffff;
+	font-size: 25px;
+}
