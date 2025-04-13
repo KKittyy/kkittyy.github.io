@@ -32,3 +32,13 @@ a:hover{
 	color: #ffffff;
 	font-size: 25px;
 }
+
+.copyright:hover{
+	font-size: 0;
+}
+
+.copyright:hover:after{
+	content: attr(data-hover);
+	font-size: 75px;
+	color: #ff0000;
+}
