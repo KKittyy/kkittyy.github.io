@@ -24,16 +24,36 @@ a:hover{
 	color: lightblue;
 	font-size: 20px;
 }
-.flex-nav ul{
-	list-style: none;
-}
 
 .clas:hover{
 	color: #ffffff;
 	font-size: 25px;
 }
 
-.copyright:hover{
-	font-size: 25;
-	color: #ffffff;
+.flex-nav {
+  display: flex;
+  justify-content: center; /* center horizontally */
+}
+
+.flex-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; /* center the list inside the nav */
+  text-align: center; /* center text inside <li> */
+}
+
+.flex-nav li {
+  margin: 10px 0; /* space between items */
+}
+
+.flex-nav a {
+  text-decoration: none;
+  color: white; /* or whatever color you're using */
+  font-family: 'Comic Sans MS', cursive; /* or whatever you're using */
+}
+
+li {
+  list-style-type: none; /* removes the dot */
+  padding: 0;
+  margin: 0;
 }
