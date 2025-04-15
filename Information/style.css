@@ -13,3 +13,17 @@ p{
 li{
 	list-style: none;
 }
+a:hover{
+	color: lightblue;
+	font-size: 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+/*	display: inline-block;*/
+	padding: 20px 5px;
+	width: 100%;
+	font-weight: 100;
+/*	letter-spacing: 2px;*/
+	font-family: "comic sans ms", cursive;
+}
