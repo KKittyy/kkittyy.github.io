@@ -1,0 +1,32 @@
+h1{
+	color: white;
+	font-family: monospace;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
+p{
+	color: white;
+	font-family: monospace;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
+h1:hover{
+	font-size: 30px;
+}
+p:hover{
+	font-size: 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 5px;
+	width: 100%;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-family: "comic sans ms", cursive;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
+a:hover{
+	color: lightblue;
+	font-size: 20px;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
