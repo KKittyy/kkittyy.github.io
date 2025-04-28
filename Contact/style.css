@@ -1,18 +1,18 @@
 h1{
-	color: lightgrey;
+	color: white;
 	font-family: "comic sans ms", cursive;
+	text-shadow: 1px 1px 5px lightskyblue;
 }
 h3{
-	color: lightgrey;
+	color: white;
 	font-family: "comic sans ms", cursive;
+	text-shadow: 1px 1px 5px lightskyblue;
 }
 h1:hover{
-	color: white;
 	font-family: monospace;
 	font-size: 50px;
 }
 h3:hover{
-	color: white;
 	font-family: monospace;
 	font-size: 25px;
 }
@@ -29,4 +29,8 @@ a{
 	font-weight: 100;
 /*	letter-spacing: 2px;*/
 	font-family: "comic sans ms", cursive;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
+li{
+	list-style: none;
 }

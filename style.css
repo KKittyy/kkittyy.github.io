@@ -11,7 +11,7 @@ p{
 img{
 	height: 250px;
 	width: 300px;
-	text-shadow: 1px 1px 5px lightskyblue;
+	filter: drop-shadow(1px 1px 5px lightskyblue);
 }
 a{
 	color: white;
@@ -71,4 +71,13 @@ li {
   font-size: 75px;
   color: #ff0000;
   text-shadow: 1px 1px 5px darkred;
+}
+.secret-link {
+  display: inline; /* Keep it in the same line */
+  margin: 0; /* remove weird margins */
+  padding: 0; /* remove weird paddings */
+}
+.secret-link:hover{
+	color: white;
+	font-size: 16px;
 }
