@@ -3,6 +3,16 @@ h1{
 	font-family: "comic sans ms", cursive;
 	text-shadow: 1px 1px 5px lightskyblue;
 }
+h2{
+	color: white;
+	font-family: monospace;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
+.h2:hover{
+	color: red;
+	text-shadow: 1px 1px 5px darkred;
+	font-size: 36px;
+}
 p{
 	color: white;
 	font-family: "comic sans ms", cursive;
