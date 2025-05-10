@@ -1,0 +1,21 @@
+.container{
+	display: grid;
+	grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+/*	grid-gap: 2px;*/
+	grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.outline{
+	background-color: #855f38;
+}
+.black{
+	background-color: black;
+}
+.orange{
+	background-color: orange;
+}
+.shadow{
+	background-color: #a89b7b;
+}
+.inside{
+	background-color: #ffedc4;
+}
