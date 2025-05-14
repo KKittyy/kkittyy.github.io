@@ -8,10 +8,16 @@ h2{
 	font-family: monospace;
 	text-shadow: 1px 1px 5px lightskyblue;
 }
-.h2:hover{
+.h2{
 	color: red;
 	text-shadow: 1px 1px 5px darkred;
 	font-size: 36px;
+	font-family: monospace;
+}
+.h1{
+	color: red;
+	text-shadow: 1px 1px 5px darkred;
+	font-size: 22px;
 }
 p{
 	color: white;

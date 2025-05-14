@@ -31,3 +31,8 @@ a{
 	font-family: "comic sans ms", cursive;
 	text-shadow: 1px 1px 5px lightskyblue;
 }
+img{
+	height: 250px;
+	width: auto;
+	filter: drop-shadow(1px 1px 5px lightskyblue);
+}
