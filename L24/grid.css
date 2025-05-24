@@ -1,0 +1,21 @@
+.container{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(5, 2fr);
+	grid-template-rows: repeat(6, 50px);
+}
+.i7{
+	background-color: #e2aded !important;
+	grid-column: span 3;
+	grid-row: span 2;
+}
+.i17{
+	background-color: #bbd48e !important;
+	grid-column: 2/4;
+	grid-row: 5/8;
+}
+.i20{
+	background-color: #e67599 !important;
+	grid-column: 3/4;
+	grid-row: 1/2;
+}

@@ -1,0 +1,17 @@
+html{
+	font-weight: 900;
+	font-family: monospace;
+	font-size: 10px;
+	color: black;
+}
+body{
+	margin: 50px;
+}
+.item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	font-size: 35px;
+	background-color: lightblue;
+}
