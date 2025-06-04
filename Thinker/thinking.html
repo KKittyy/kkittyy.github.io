@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mind Reader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+
+<div class="container">
+  <h2>Mind Reader</h2>
+  <p>Think of a number and type it below:</p>
+  <input type="number" id="userNumber" placeholder="Enter a number">
+  <button onclick="revealNumber()">Reveal</button>
+  <div id="output"></div>
+  <div id="tips"></div>
+</div>
+
+<script>
+  const tipsList = [
+    "Thinking...",
+    "Reconsidering my life choices...",
+    "Drinking water...",
+    "Understanding the assignment...",
+    "Got it!"
+  ];
+
+  function revealNumber() {
+    const number = document.getElementById('userNumber').value;
+    const output = document.getElementById('output');
+    const tips = document.getElementById('tips');
+    
+    if (number === "") {
+      output.textContent = "Please enter a number!";
+      tips.textContent = "";
+      return;
+    }
+
+    output.textContent = "";
+    tips.textContent = tipsList[0];
+    let i = 1;
+
+    const interval = setInterval(() => {
+      if (i < tipsList.length) {
+        tips.textContent = tipsList[i];
+        i++;
+      } else {
+        clearInterval(interval);
+        tips.textContent = "";
+        output.textContent = `You thought of the number ${number}!`;
+      }
+    }, 1000); // 0.8 seconds between tips
+  }
+</script>
+
+</body>
+</html>
