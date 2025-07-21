@@ -9,6 +9,12 @@ p{
 	font-size: 15px;
 	text-shadow: 1px 1px 5px lightskyblue;
 }
+.p{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
 
 h1:hover{
 	font-size: 35px;
