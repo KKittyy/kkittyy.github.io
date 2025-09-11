@@ -1,0 +1,12 @@
+h1{
+	font-size: 35px;
+	color: blue;
+}
+.text{
+	font-size: 25px;
+	font-style: italic;
+}
+#cod{
+	background: yellow;
+	font-size: 30px;
+}
