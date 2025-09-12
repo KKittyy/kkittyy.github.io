@@ -31,3 +31,11 @@ li {
   padding: 0; /* remove weird paddings */
   font-family: monospace;
 }
+.secret-link {
+  display: inline; /* Keep it in the same line */
+  margin: 0;
+  padding: 0; 
+}
+.secret-link:hover{
+	font-size: 24px;
+}

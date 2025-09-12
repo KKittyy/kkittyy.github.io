@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>keyprser</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" role="application">
+      <header>
+        <div>
+          <h1>Key Press Detector</h1>
+          <p class="lead">Press any key — this page shows the key, code, and modifiers in real time.</p>
+        </div>
+      </header>
+
+      <div class="grid" style="margin-top:18px">
+        <section class="display" aria-live="polite">
+          <div class="bigkey" id="bigKey">—</div>
+          <div class="meta" id="metaRow">
+            <div class="chip" id="keyName">Key: —</div>
+            <div class="chip" id="codeName">Code: —</div>
+            <div class="chip" id="whichVal">Which: —</div>
+            <div class="chip" id="timeStamp">Time: —</div>
+          </div>
+
+          <div class="info">
+            <div class="row">keyCode: <strong id="keyCode">—</strong></div>
+            <div class="row">isComposing: <strong id="isComposing">—</strong></div>
+            <div class="row">Modifiers: <strong id="mods">—</strong></div>
+            <div class="row">Printable: <strong id="printable">—</strong></div>
+          </div>
+        </section>
+
+        <aside>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+            <strong>History</strong>
+            <div class="controls">
+              <button id="clearBtn">Clear</button>
+              <button id="copyBtn" class="primary">Copy Last</button>
+            </div>
+          </div>
+          <div class="history" id="history" aria-live="polite"></div>
+          <footer>Tip: this listens for <code>keydown</code> events. Focus anywhere on the page and press a key.</footer>
+        </aside>
+      </div>
+
+    </div>
+  </div>
+
+  <li>
+        <a href="../secret.html" align="center" style="font-family: 'Comic Sans MS', cursive; text-decoration: none;">go back to site!</a>
+    </li>
+</body>
+</html>
