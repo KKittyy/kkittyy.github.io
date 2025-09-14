@@ -57,18 +57,22 @@ h3:hover {
 
 /* Logo */
 .logo {
-  width: 54px;
-  height: 54px;
-  border-radius: 10px;
-  background: var(--accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #071126;
-  font-weight: 700;
-  font-size: 20px;
-  text-shadow: 1px 1px 5px white;
+  width: 60px;              /* size of circle */
+  height: 60px;
+  border-radius: 20%;
+  background: lightskyblue; /* circle background */
+  display: flex;            /* centers content */
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+  box-shadow: 0 0 10px lightblue;
 }
+
+.logo img {
+  width: 40px;   /* image size */
+  height: 40px;
+  object-fit: contain; /* keeps proportions */
+}
+
 
 /* Grid Layout */
 .grid {
@@ -182,7 +186,6 @@ a{
   padding: 20px 5px;
   width: 100%;
   font-weight: 100;
-/*  letter-spacing: 2px;*/
   font-family: "comic sans ms", cursive;
   text-shadow: 1px 1px 5px lightskyblue;
 }
