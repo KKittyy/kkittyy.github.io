@@ -1,0 +1,35 @@
+.container{
+	margin: 0 auto;
+	height: 250px;
+	padding: 10px;
+	max-width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#box{
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 500px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+img{
+	height: 200px;
+}
+input{
+	padding: 0.5rem 1rem;
+}
+.container{
+	flex-direction: column;
+	gap: 20px;
+}
+.btn{
+	font-size: 25px;
+	cursor: pointer;
+}

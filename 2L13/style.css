@@ -1,0 +1,46 @@
+#canvas{
+	box-shadow: 0 0 5px black;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center
+}
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 25px;
+	color: white;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
+
+.control{
+	width: 600px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn{
+	font-size: 25px;
+	color: white;
+	background-color: #4d6469;
+	border-radius: 10px;
+	padding: 5px 10px;
+	cursor: not-allowed;
+	text-shadow: 1px 1px 5px lightskyblue;
+}
+.btn:hover{
+	background-color: #83adc9;
+	color: #d3e7f5;
+}
+
+.txt{
+	color: white;
+	text-shadow: 1px 1px 5px lightskyblue;
+	font-family: monospace;	
+}
