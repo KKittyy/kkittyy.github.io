@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+.wrapper{
+	max-width: 50vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	padding: 20px 0;
+}
+h1{
+	font-size: 55px;
+}
+h2{
+	font-size: 35px;
+	margin: 20px 0;
+}
+article{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.slideRules{
+	background: #003262;
+	font-size: 30px;
+	padding: 10px 20px;
+	color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.slideRules:hover{
+	cursor: not-allowed;
+}
+#rules{
+	padding: 20px;
+	font-size: 20px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #2072AF;
+	color: white;
+}
+.taskProgress{
+	position: fixed;
+	top: 40vh;
+	left: 1vw;
+	padding: 2.5vh;
+}
+.taskProgress p{
+	text-align: center;
+	font-size: 35px;
+	margin: 10px;
+	font-style: italic;
+}
+#start{
+	width: 250px;
+	height: 10vh;
+	font-size: 40px;
+	background-color: #003262;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+.timeProgress{
+	position: fixed;
+	top: 1vh;
+	left: 1vw;
+	padding: 1.5vh;
+}
+.timeProgress p{
+	text-align: center;
+	font-size: 34px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+.gameBoard{
+	width: 100%;
+	gap: 5px;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-template-rows: repeat(4,100px);
+}
+.gameBoard >div{
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+	transition: all 0.5s;
+	transform-style: preserve-3d;
+}
+.front{
+	background-color: royalblue;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.back{
+	background-color: white;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.back img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	max-height: 100%;
+}
+.flip{
+	transform: rotateY(180deg);
+}
+#win{
+	display: none;
+	padding: 1rem 2rem;
+	justify-content: center;
+	align-items: center;
+	background-color: #003262;
+	color: white;
+	margin-top: 100px;
+	border-radius: 20px;
+}

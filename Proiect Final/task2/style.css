@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+.wrapper{
+	max-width: 50vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	padding: 20px 0;
+}
+h1{
+	font-size: 55px;
+}
+h2{
+	font-size: 35px;
+	margin: 20px 0;
+}
+article{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.slideRules{
+	background: #3029ff;
+	font-size: 30px;
+	padding: 10px 20px;
+	color: white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.slideRules:hover{
+	cursor: not-allowed;
+}
+#rules{
+	padding: 20px;
+	font-size: 20px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #8f8ced;
+	color: #f3f2fa;
+}
+.taskProgress{
+	position: fixed;
+	top: 40vh;
+	left: 1vw;
+	padding: 2.5vh;
+}
+.taskProgress p{
+	text-align: center;
+	font-size: 35px;
+	margin: 10px;
+	font-style: italic;
+}
+.answer{
+	width: 65%;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+#inputTask2{
+	flex-flow:1;
+	font-size: 35px;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid black;
+}
+#btnTask2{
+	flew-flow: 1;
+	font-size: 30px;
+	color: white;
+	background-color: #3029ff;
+	padding: 0 1rem;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+.img{
+	width: 65%;
+}
+.img img{
+	box-shadow: 0 0 20px black;
+	width: 100%;
+}
+#nextTask{
+	position: fixed;
+	right: 2vw;
+	bottom: 45vh;
+	width: 200px;
+	height: 10vh;
+	font-size: 30px;
+	background-color: #3029ff;
+	color: white;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+
+#start{
+	width: 250px;
+	height: 10vh;
+	font-size: 40px;
+	background-color: #3029ff;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+.timeProgress{
+	position: fixed;
+	top: 1vh;
+	left: 1vw;
+	padding: 1.5vh;
+}
+.timeProgress p{
+	text-align: center;
+	font-size: 34px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+.sound{
+	display: none;
+}

@@ -1,0 +1,13 @@
+canvas{
+	border: 2px solid black;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: opacity 2s ease, transform 2s ease;
+}
+.fade-up{
+	opacity: 0;
+	transform: translateY(-50px);
+}

@@ -1,0 +1,30 @@
+body{
+	padding: 0;
+	margin: 0px 50px;
+}
+.container{
+	background-color: #222;
+	height: 500px;
+	width: 100%;
+	text-align: center;
+}
+.clock{
+	position: relative;
+	width: 350px;
+	margin: auto;
+}
+#hour_style{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+#minute_style{
+	position: absolute;
+	left: 60px;
+	top: 60px;
+}
+#second_style{
+	position: absolute;
+	left: 110px;
+	top: 110px;
+}

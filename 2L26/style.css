@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+body{
+	line-height: 1.5;
+}
+.header{
+	height: 100vh;
+	background-color: deepskyblue;
+	text-align: center;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content img{
+	height:100px;
+}
+.content{
+	width: 65%;
+	margin: 20px 0;
+	flex-direction: column;
+	gap: 20px;
+}
+#main{
+	position: relative;
+	background-color: white;
+}
+.curs{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 200px 0;
+	border-bottom: 1px solid black;
+}
+.curs img{
+	height: 200px;
+}
+.curs p{
+	max-width: 300px;
+	text-align: center;
+}
+.soft, .web{
+	background-color: darkviolet;
+	color: white;
+}
+.parallax{
+	padding: 400px 0;
+	color: white;
+	background-color: black;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.bcg1{
+	background:url(img/Parallax1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0.5;
+}
+.bcg2{
+	background:url(img/Parallax2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	height: 100%;
+	width: 140%;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0.5;
+}
+.bcg3{
+	background:url(img/Parallax3.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	height: 100%;
+	width: 140%;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0.5;
+}

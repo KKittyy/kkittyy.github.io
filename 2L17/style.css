@@ -1,0 +1,55 @@
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black;
+}
+.box1{
+	background: lightyellow;
+}
+.box2{
+	background: skyblue;
+}
+.box3{
+	background: lightpink;
+}
+.box4{
+	background: palevioletred;
+}
+.box5{
+	background: black;
+	color: white;
+}
+
+.panel{
+	background: #6f7575;
+	color:white;
+	text-align: center;
+	padding: 5px;
+	font-size: 30px;
+}
+.not{
+	background: #a9b0b0;
+	text-align: center;
+	padding: 5px;
+	font-size: 30px;
+	height: 100px;
+}
+.content{
+	width: 200px;
+	height: 200px;
+	box-shadow: 0 0 10px black;
+	border-radius: 20px;
+	background: black;
+}

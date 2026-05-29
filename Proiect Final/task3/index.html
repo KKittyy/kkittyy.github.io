@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task 3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://raw.githack.com/aterrien/jQuery-Knob/master/dist/jquery.knob.min.js"></script>
+
+	<link rel="stylesheet" href="alertify/alertify.core.css" />
+	<link rel="stylesheet" href="alertify/alertify.default.css" />
+	<script src="alertify/alertify.min.js"></script>
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<div class="wrapper">
+		<h1><i><u>online quest</u></i></h1>
+		<h2>task 3. memory game</h2>
+		<article>
+			<p class="slideRules"> Description and rules</p>
+			<div id="rules">
+				<p>
+					<ul style="list-style: none;">
+						<li>
+							<b>memory game</b> - a game where you have to match 2 cards with the same image or something idk bro.
+						</li>
+						<li>
+							<b>rules:</b>
+							<ul>
+								<li>match cards, that's all i have to explain.</li>
+								<li>clicking on another card after clicking one and the images don;t match, they hide from you</li>
+								<li>if you match 2 correct, they will stay revealed</li>
+								<li>if you match all the cards correctly between eachother, you win, yay</li>
+								<li>also you have 5 minutes from clicking <b>start</b></li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+			</div>
+		</article>
+		<div class="timeProgress">
+			<p>time</p>
+			<input type="text" value="0" class="time">
+		</div>
+		<div class="taskProgress">
+			<p>taks program</p>
+			<input type="text" value="0" class="progress">
+		</div>
+		<div id="start">
+			<p>start</p>
+		</div>
+		<div class="gameBoard">
+			
+		</div>
+		<div id="win">
+			<h1>you won yay</h1>
+		</div>
+	</div>
+</body>
+</html>

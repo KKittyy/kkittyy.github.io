@@ -1,0 +1,61 @@
+.catch{
+	height: 100px;
+	width: 100px;
+	background-color: rgb(149, 183, 191);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	border-radius: 50%;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	color: white;
+	transition: 1s;
+}
+
+#box{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	left: 100px;
+	top: 300px;
+	border-radius: 50%;
+	transition: 1s;
+}
+
+.nav{
+	width: 200px;
+	height: 200px;
+	background-color: rgba(0,0,0,0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 90px;
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+}
+
+.btnNav{
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #7f868a;
+	color: white;
+	padding: 0 19px;
+	border-radius: 5px;
+	margin: 1px;
+}
+#LRnav{
+	width: 160px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

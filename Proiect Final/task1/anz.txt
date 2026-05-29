@@ -1,0 +1,10 @@
+cat
+dog
+bunny
+hamster
+cow
+horse
+wolf
+fox
+raccoon
+elephant
